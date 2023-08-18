@@ -42,17 +42,3 @@ Follow step in this video to install mysql on your local computer https://www.yo
 ## Data Analysis Using Power BI
 Formula to create norm_amount column
 = Table.AddColumn(#"Filtered Rows", "norm_amount", each if [currency] = "USD" or [currency] ="USD#(cr)" then [sales_amount]*75 else [sales_amount], type any)
-
-
-
-
-![Data_Model](https://github.com/PramitChandra/Sales-Analysis-Using-Power-BI/assets/112652928/7413e091-e6c8-4370-a2c2-95ffecd9529c)
-
-
-![Report_example_1](https://github.com/PramitChandra/Sales-Analysis-Using-Power-BI/assets/112652928/998983e8-3453-4c2b-9d9a-92d4e4638c95)
-
-
-![Report_example_2](https://github.com/PramitChandra/Sales-Analysis-Using-Power-BI/assets/112652928/b6d69f0a-3959-4ef5-a012-9c3ad49eb1c4)
-
-
-![Report_example_3](https://github.com/PramitChandra/Sales-Analysis-Using-Power-BI/assets/112652928/ea9ce32d-8076-4acc-ab4f-e758922d2d88)
