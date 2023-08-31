@@ -1,4 +1,4 @@
-# Sales Insights Data Analysis Project
+# Sales Insights Data Analysis Project Using PowerBI
 Instructions to setup mysql on your local computer
 Follow step in this video to install mysql on your local computer https://www.youtube.com/watch?v=WuBcTJnIuzo
 
